@@ -1,0 +1,132 @@
+
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+body {
+	font-family: "Open Sans", Times, serif;
+	/*font-family:"Open Sans";*/
+}
+
+.main {
+	margin-left: 10px;
+	margin-top: 100px;
+}
+.question {
+	font-size: 2em;
+}
+
+ul {
+	list-style: none;
+}
+li {
+	text-decoration: none;
+	border: 1px solid lightgray;
+	margin:10px;
+	padding: 10px;
+}
+
+.dropdown {
+	margin-right: 3px;
+	/*z-index: 999;*/
+	position: absolute;
+	top: 115px;
+	padding-left: 0;
+	box-shadow: 1px 1px 10px ;
+  /*dropdow is hidden by default*/
+	display: none; 
+}
+
+.wrapper {
+	background: #d7ff99;
+	padding: 3px 15px;
+	border-radius: 4px;
+	width: 100px;
+}
+.dropdown li {
+	
+	border: 0px;
+	font-size: 0.9em;
+	width:100px;
+	margin: 0px;
+	background: white;
+}
+
+li:hover {
+	background: #ECEEF0;
+}
+/*disable hover effect when li tag is selected*/
+.selected, .selected:hover {
+	background: #FFDEAD;
+}
+
+.correct, .correct:hover {
+	background: #9ACD32;
+	color: white;
+}
+
+.wrong, .wrong:hover {
+	background: red;
+	color: white;
+}
+
+button {
+	padding:5px 14px;
+	font-size: 1.1em;
+	border:none;
+	border-radius: 5px;
+}
+.submit {
+	color: white;
+	background: #2DB82D;
+}
+.next {
+	background: #B0C4DE;
+}
+.finalize {
+	background: #1A1AFF;
+}
+.back {
+	background: #ffff33;
+}
+.doNotDisplay {
+	display: none;
+}
+
+td,th {
+	border:1px solid lightgray;
+	padding: 10px;
+	text-transform: uppercase;
+	font-weight: 700;
+	/*font-size:14px;*/
+}
+
+th {
+	border-bottom:3px solid gray;
+	background: #C2CCE0;
+}
+
+table {
+	border:2px solid gray;
+	border-spacing: 0px;
+	border-collapse: collapse;
+}
+
+td {
+	cursor:pointer;
+}
+
+.questionCol {
+	color: #5b666f;
+}
+.correctCol {
+	color: #6a9d21;
+}
+.wrongCol {
+	color: #9d2138;
+}
+.pAboveTable {
+	font-size: 1.4em;
+}
+/*tr {
+	cursor:pointer;
+}*/
+
